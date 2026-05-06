@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meva Puzzle - 150 Bosqich</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Meva Puzzle</h1>
+        <div class="stats">
+            <span id="status">Eslab qoling: 5 soniya!</span> | 
+            <span id="level-display">Bosqich: 1</span>
+        </div>
+        
+        <div class="grid" id="grid"></div>
+
+        <div class="controls">
+            <button id="next-btn" onclick="nextLevel()" style="display:none;">Keyingi Bosqich ➔</button>
+            <button class="reset-btn" onclick="location.reload()">O'yinni yangilash</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
